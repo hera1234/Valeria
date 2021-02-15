@@ -31,7 +31,7 @@
 
 
 					$getData = $qualification -> get_qualifications_form($userId, $level, $group, $student);
-				
+
 					$data = Status::get_status($getData["status"], $getData["notice"], $getData["data"]); 
 							
 				break;

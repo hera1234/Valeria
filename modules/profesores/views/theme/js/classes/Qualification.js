@@ -95,7 +95,7 @@ class Qualification{
 
 		objectSelf.ajax.send_data({method:'post', 
 						    functionName:(data) => {
-	
+
 								if(data.status == 'done'){
 
 										this.app.openModal(objectSelf.formModal);
@@ -155,10 +155,10 @@ class Qualification{
 										this.app.innerHTML(totalWrap, 'Total: '+total+'  Promedio: '+final);
 									
 								}else{
-								
-									this.app.innerHTML(this.app.ajaxMsg, this.app.msg.msg_type(data.status, data.notice));
+
+									this.app.innerHTML(this.ajaxMsg, this.app.msg.msg_type(data.status, data.notice));
 									
-									console.log(data.data);	
+									console.log(data.notice);	
 								
 								}
 								
