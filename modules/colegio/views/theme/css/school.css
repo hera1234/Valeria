@@ -1,0 +1,60 @@
+@import url('../../../../../views/theme/css/responsive.css');
+
+.page-menuWrap{
+	margin: 0px auto;
+	margin-top: 50px;
+	width: 90%;
+}
+.page-menuRow{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-bottom: 40px; 
+}
+.page-menuItem{
+	border: solid 1px #DDE1E4;
+	border-radius: 10px;
+	flex-basis: 30%;
+	height: auto;
+	padding: 20px;
+}
+.page-menuItemEmpty{
+	border: 0px;
+}
+.img-itemWrap{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 10px;
+	width: 100%;
+	height: 75%;
+}
+.img-item{
+	border: solid 5px #0A84FF;
+	border-radius: 50%; 
+	color: #0A84FF;
+	display: flex;
+	align-items: center;
+	font-size: 500%; 
+	justify-content: center;
+	width: 200px;
+	height: 200px;
+}
+.footer-item{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 25%;
+}
+.action-itemBtn{
+	background: #00B1F3; 
+	margin-bottom: 10px;
+}
+.action-itemBtn:hover{
+	opacity: 0.5;
+}
+.no-recordsItem{
+	color: grey;
+}

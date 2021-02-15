@@ -1,0 +1,17 @@
+.show-signaturesBtn{
+	display: block;
+	margin: 0px auto;
+}
+.signatures-listWrap{
+	background: white;
+	border-radius: 5px 0px 5px 5px;
+	margin: 10px auto; 
+	width: 700px;
+	height: auto;
+	max-height: 500px;
+	padding: 10px;
+}
+.signatures-list{
+	overflow: auto;
+	padding: 0px 20px;
+}

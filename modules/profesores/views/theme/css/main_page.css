@@ -1,0 +1,43 @@
+@import url('../../../../../views/theme/css/responsive.css');
+
+.groups-tableContainer{
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;  
+	margin: 0px auto;
+	margin-top: 50px;
+	padding: 10px 20px;
+	width: 100%;
+	min-width: 250px;
+	height: auto;
+}
+.groups-tableWrap{
+	width: 500px;
+	min-height: 100px;
+	height: auto;
+}
+.groups-table{
+	width: 100%;
+	min-width: 200px
+}
+.classroom-table{
+	border: solid 1px grey;
+	text-align: center;
+	width: 100%;
+}
+.classroom-table caption{
+	background: #4B8BF4;
+	color: white;
+	padding: 5px;
+	font-size: 180%;
+}
+.classroom-table td{
+	padding: 10px;
+}
+.classroom-btn{
+	background: #202340; 
+	cursor: pointer;	
+}
+.classroom-btn:hover{
+	opacity: 0.5;
+}

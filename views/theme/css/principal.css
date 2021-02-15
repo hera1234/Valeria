@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* CSS Document */
+.divTipoUsuario{
+	width:100%;
+	height:auto;
+	margin-top:5%;
+	padding:5%;
+	border:solid 5px #325EAB;
+	color:#325EAB;
+	font-size:26pt;
+}

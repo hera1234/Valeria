@@ -1,0 +1,125 @@
+@charset "utf-8";
+@import url('../../../../../views/theme/css/responsive.css');
+
+/* CSS Document */
+
+.update-infoBtnWrap{
+	display: flex;
+	justify-content: flex-end;
+	margin: 0px auto;
+	width: 90%;
+	height: auto;
+	padding: 10px 0px;
+}
+.update-infoBtn{
+	background: #4C8BF4;
+	cursor: pointer; 
+	width: 200px;
+}
+.update-infoBtn:hover{
+	opacity: 0.8;
+}
+.ajax-msgPage{
+	margin: 0px auto;
+	margin-bottom: 10px;
+	width: 90%;
+}
+.school-infoWrap{
+	border-radius: 10px;
+	border: solid 1px #959595;
+	display: flex;
+	margin: 0px auto;
+	width: 90%;
+	height: auto;
+}
+.info-listWrap{
+	flex-basis: 50%;
+	list-style: none;
+	margin: 10px;
+	padding: 0px;
+}
+.info-listWrap  li{
+	color: #525254;
+	padding: 10px;
+}
+.boton-EditarEmp{
+	padding-top:3%;
+	width:200px;
+	height:30px;
+	background-color:#71AAF8;
+	font-size:12pt;
+	font-weight:bold;
+	border:solid 1px #959595;
+	float:right;
+}
+.modalFormEditar{
+	left:0%;
+	top:0%;
+	position:absolute;
+	width:100%;
+	height:100%;
+	background-color:rgba(0,0,0,0.8);
+	display:none;
+}
+.formEditar{
+	background-color:white;
+	width:50%;
+	min-width:550px;
+	height:455px;
+	margin:4% auto;
+}
+.titulo-form{
+	width:100%;
+	height:auto;
+	min-height:73px;
+	font-size:26pt;
+	font-weight:bold;
+	padding-top:4%;
+	padding-left:2%;
+	color:white;
+	background-color:#509AD0;
+}
+.mensajesReg{
+	height:5%;
+}
+.contenedorInputs{
+	width:85%;
+	margin-top:2%;
+}
+.inputLeft,.inputRigth{
+	width:44%;
+	height:57%;
+}
+.inputRigth{
+	margin-left:10%;
+}
+.inputLeft input,.inputRigth input,.inputLeft select,.inputRigth select{
+	width:100%;
+	height:25px;
+	border-radius:5px;
+	border:solid 1px #C3C3C3;
+}
+.contenedor-botones{
+	box-sizing:border-box;
+	width:100%;
+	height:35px;
+	padding-left:50%;
+	margin-top:5%;
+}
+.guardar, .cerrarForm{
+	background-color:#2D65D5;
+	color:white;
+	border-radius:5px;
+	width:55%;
+	min-width:150px;
+	font-size:11pt;
+	font-weight:bold;
+	cursor:pointer;
+	padding:2%;
+}
+.cerrarForm{
+	width:25%;
+	min-width:70px;
+	background-color:#ECE6E6;
+	color:black;
+}
