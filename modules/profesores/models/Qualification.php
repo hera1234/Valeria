@@ -34,7 +34,7 @@
 
 				$search = $this -> search("select mat_nombre as signatureName, mat_id as signatureId from materias_profesor left join materia on mat_id=mprof_materia  left join alumnos on alumnos.grupo=mprof_grupo where alumnos.id=$studentId and mprof_grupo=$groupId and mprof_grado=$levelId and mprof_profesor=$teacherId", 
 										  "",
-										  "No se encontraron actividades registradas para este salon",
+										  "No se encontraron materias registradas para este salon",
 										  'Error al buscar datos');
 
 				$searchQ = $this -> search("select * from calificaciones where cal_profesor=$teacherId and cal_grado=$levelId and cal_grupo=$groupId and cal_alumno=$studentId", 

@@ -852,7 +852,7 @@
 
 				$teacherId = $this -> data_cleaner($teacherId);
 				
-				$loadData = $this -> search("select gr_nombre as levelName, gru_id as groupId, gru_nombre as groupName from materias_profesor left join grupos on gru_id=mprof_grupo left join grados on gr_id=mprof_grado  group by gru_nombre", 
+				$loadData = $this -> search("select gr_nombre as levelName, gru_id as groupId, gru_nombre as groupName from materias_profesor left join grupos on gru_id=mprof_grupo left join grados on gr_id=mprof_grado  where materias_profesor.mprof_profesor='$teacherId'  group by gru_nombre", 
 											'Datos cargados correctamente',
 											'No hay registros del profesor',
 											'Error al cargar la lista de grupos del profesor');
@@ -902,7 +902,7 @@
 
 				$search = $this -> search("select alumnos.id as studentId, alumnos.nombre as studentName, alumnos.grupo as studentGroup, gru_grado as levelId from alumnos left join grupos on gru_id=alumnos.grupo where alumnos.grupo='$group'", 
 										  "Lista cargada exitosamente",
-										  "No se encontro la lista de alumnos para este salon",
+										  "Aun no tinene alumnos en este salon",
 										  'Error al buscar lista');
 
 				if($search['status'] == 'done'){
