@@ -75,7 +75,6 @@ class Ajax{
 						//OK
 						
 						console.log(this.myConection.conection.statusText);
-						console.log(this.myConection.conection.responseText);
 						
 						try{
 
