@@ -2,7 +2,7 @@
 
 <h1 class="title-page">
 	
-	Administrar Informacion de la Escuela
+	Administrar Informacion 
 
 </h1>
 
@@ -12,11 +12,7 @@
 	    	
 	    	<div class="page-menuItem">
 	        
-	        	<div class="img-itemWrap">
-	        		<div class="img-item">
-	        			<span class="fas fa-file-signature"></span>
-	        		</div>
-	        	</div>
+	        	
 
 	        	<div class="footer-item">
 		        
@@ -38,11 +34,7 @@
 	        
 	        <div class="page-menuItem">
 	
-	        	<div class="img-itemWrap">
-	        		<div class="img-item">
-	        			<span class="fas fa-graduation-cap"></span>
-	        		</div>
-	        	</div>
+	        
 
 	        	<div class="footer-item">
 
@@ -63,11 +55,7 @@
 	        </div>	
 	        <div class="page-menuItem">
 	        
-	        	<div class="img-itemWrap">
-	        		<div class="img-item">
-	        			<span class="fas fa-users"></span>
-	        		</div>
-	        	</div>
+	        
 
 	        	<div class="footer-item">
 		        
@@ -93,11 +81,7 @@
 	    	
 	    	<div class="page-menuItem">
 	        
-	        	<div class="img-itemWrap">
-	        		<div class="img-item">
-	        			<span class="fas fa-school"></span>
-	        		</div>
-	        	</div>
+	        	
 	            
 	            <div class="footer-item">
 		            

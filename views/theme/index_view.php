@@ -14,33 +14,35 @@
 	</head>
 	<body>
 
-		<div class="main-container">
+		<div class="main-container ">
 
-	    	<h1 class="login-title">Login</h1>
+			<h1 class="login-title" >Colegio Las Águilas</h1>
+			
 
 	    	<div class="form-wrap">
 	        	
 	        	<form action="<?php $_SERVER['PHP_SELF'] ?>" method="post" class="login-form">
 	            
 	            	<div class="head-formLogin">
-	            		<img src="views/theme/img/illustrator-old-school-icon.png" class="img-formLogin">
+	            		<img src="views/theme/img/ag.jpg" class="img-formLogin">
 	            	</div>
 	        			
         			<div class="controls-wrap <?php echo $visibleForm;?>">
         				<div class=""><?php echo $msg;?></div>
 						<div class="controls-group">
-							<input type="text" name="user" placeholder="Usuario" class="form-loginControl" id="usuario"><br>
-							<input type="password" name="password" placeholder="Password" class="form-loginControl" id="password">
+							<input type="text" name="user" placeholder="Ingrese su Usuario" class="form-loginControl" id="usuario"><br>
+							<input type="password" name="password" placeholder="Ingrese su contraseña" class="form-loginControl" id="password">
 							<select name="userType" class="form-loginControl select-login" id="user-type">
 								<option value="" selected="">Seleccione una opcion</option>
 								<option value="admin">Administrador</option>
 								<option value="prof">Profesor</option>
+								<option value="prof">Estudiante</option>
 							</select>
 						</div>
 						
 						<div class="btns-container">
 						
-							<input type="submit" name="loginBtn" id="login-btn" value="Login" class="btn login-btn">
+							<input type="submit" name="loginBtn" id="login-btn" value="Ingresar" class="btn login-btn">
 						
 						</div>
 

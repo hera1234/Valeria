@@ -2,13 +2,9 @@
 
     <div class="head-pageGroup head-pageLeft">
     
-        <div class="img-headPageWrap">
-            <div class="img-headPage">
-                <span class="fas fa-user-graduate"></span>
-            </div>
-        </div>
+        
     
-        <div class="head-pageTitle">Control de alumnos</div>
+        <div class="head-pageTitle">Control de Alumnos</div>
     
     </div>
 
@@ -19,12 +15,12 @@
             <form action="" method="post" name="searchStudentForm" id="head-pageSearchForm" class="head-pageSearchForm">
 
                 <div class="search-wrap">
-                    <input type="search" name="searchTxt" id="head-pageSearchTxt" class="head-pageSearchTxt" placeHolder="Introdusca su Busqueda (Nombre o documento)">
+                    <input type="search" name="searchTxt" id="head-pageSearchTxt" class="head-pageSearchTxt" placeHolder="Ingrese Nombre  ">
                     <input type="submit" name="searchBtn" id="head-pageSearchBtn"  class="head-pageSearchBtn" value="Buscar">
                 </div>
                 
                 <div class="add-btnWrap">
-                    <input type="button" name="new-student" id="head-pageNewRecord" class="head-pageNewRecord" value="Registrar Alumno">
+                    <input type="button" name="new-student" id="head-pageNewRecord" class="head-pageNewRecord" value="Registrar Nuevo Alumno">
                 </div>
 
             </form>

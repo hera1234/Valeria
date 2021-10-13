@@ -2,11 +2,7 @@
 
     <div class="head-pageGroup head-pageLeft">
         
-        <div class="img-headPageWrap">
-            <div class="img-headPage">
-            <span class="fas fa-file-signature"></span>
-            </div>
-        </div>
+       
         
         <div class="head-pageTitle">Control de materias</div>
 

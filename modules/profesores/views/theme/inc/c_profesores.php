@@ -2,11 +2,7 @@
 
     <div class="head-pageGroup head-pageLeft">
     	
-        <div class="img-headPageWrap">
-            <div class="img-headPage">
-                <span class="fas fa-chalkboard-teacher"></span>
-            </div>
-        </div>
+        
         
         <div class="head-pageTitle">Control de Profesores</div>
 
@@ -19,7 +15,7 @@
         	<form action="" method="post" name="searchTeacherForm" id="head-pageSearchForm" class="head-pageSearchForm">
 
                 <div class="search-wrap">    
-                	<input type="search" name="searchTxt" id="head-pageSearchTxt" class="head-pageSearchTxt" placeHolder="Introdusca su Busqueda (Nombre o documento)">
+                	<input type="search" name="searchTxt" id="head-pageSearchTxt" class="head-pageSearchTxt" placeHolder="Ingrese Nombre">
                     <input type="submit" name="searchBtn" id="head-pageSearchBtn"  class="head-pageSearchBtn" value="Buscar">
                 </div>
                 <div class="add-btnWrap">

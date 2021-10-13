@@ -7,7 +7,7 @@
         
         <link rel="shortcut icon" href="views/theme/ico/school-buss.ico">
     	
-        <title>Control de Alumnos</title>
+        <title>ALUMNOS</title>
         
         <link rel="stylesheet" href="views/theme/css/general.css">
         <link rel="stylesheet" href="modules/alumnos/views/theme/css/student.css">
